@@ -39,7 +39,7 @@ def get_authors():
 
             all_data.append(author_info)
         page_number+=1
-        return all_data
+    return all_data
 
 def save_authors_to_json(quotes, filename):
     with open(filename, 'w', encoding='utf-8') as file:

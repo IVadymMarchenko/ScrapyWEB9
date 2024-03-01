@@ -43,7 +43,7 @@ def get_quote():
     return all_data
 
 
-print(get_quote())
+
 def save_quotes_to_json(quotes, filename):
     with open(filename,'w',encoding='utf-8') as file:
         json.dump(quotes,file, ensure_ascii=False, indent=4)
